@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
 }
 
 .logo {
@@ -103,12 +104,17 @@ p {
 
 .menu-label {
     background: #eb3333;
-    color: white;
+
     box-sizing: border-box;
     height: auto;
-    text-align: left;
-    padding: 10px;
-    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.menu-label a {
+    color: white;
 }
 
 .category-vertical-menu-item {
@@ -120,6 +126,7 @@ p {
 
 .category-vertical-menu-title {
     display: block;
+    font-size: 20px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 0px;
@@ -138,7 +145,7 @@ p {
 }
 
 .product-item {
-    max-width: 230px;
+    max-width: 175px;
     text-align: center;
     display: inline-block;
 }
@@ -162,11 +169,70 @@ p {
     color: #eb3333;
 }
 
-.product-section
-{
+.product-section {
     padding-bottom: 10px;
 }
 
+.product-find-more-button {
+    background-color: #eb333300;
+    border: none;
+    color: #eb3333;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+.product-find-more-button:hover {
+    color: white;
+    background-color: #eb3333;
+}
+
+.button-border {
+    background-color: white;
+    border: 2px solid #eb3333;
+}
+
+.bottom-border {
+    border-bottom: 2px solid rgb(207, 200, 200);
+    padding-bottom: 12px;
+}
+
+
+.footer {
+    padding: 10px;
+}
+
+.footer-subtitle {
+    color: #555;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.footer-widget ul {
+    list-style: none;
+    font-weight: 400;
+}
+
+.footer-copyright
+{
+    text-align: center;
+    background: #333;
+    padding: 10px 0;
+}
+
+.footer-copyright-text
+{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
 
 
 
